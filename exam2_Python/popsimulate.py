@@ -1,4 +1,5 @@
 #_________________ Función 1
+import numpy
 def build_population(N, p):
     population = []
     for i in range(N):
