@@ -3,10 +3,10 @@ def build_population(N, p):
     population = []
     for i in range(N):
         allele1 = "A"
-        if scipy.random.rand() > p:
+        if numpy.random.rand() > p:
             allele1 = "a"
         allele2 = "A"
-        if scipy.random.rand() > p:
+        if numpy.random.rand() > p:
             allele2 = "a"
         population.append((allele1, allele2))
     return population
