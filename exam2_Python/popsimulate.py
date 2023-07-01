@@ -21,6 +21,7 @@ def compute_frequencies(population):
     return({"AA": AA, "aa": aa, "Aa": Aa, "aA": aA})
 
 #_________________ Función 3
+import numpy
 def reproduce_population(population):
     new_generation = []
     N = len(population)
